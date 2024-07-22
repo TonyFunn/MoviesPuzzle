@@ -1,0 +1,25 @@
+body {
+    background-color: #1a2129;
+    color: #d3d3d3;
+    font-size: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1140px;
+
+    &--sm {
+        max-width: 840px;
+    }
+}
+
+.bun-comeback {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+
+    &:hover {
+        color: #70c05b;
+    }
+}
